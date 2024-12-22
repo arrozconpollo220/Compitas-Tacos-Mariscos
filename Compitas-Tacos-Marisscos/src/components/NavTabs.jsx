@@ -29,3 +29,5 @@ function NavTabs() {
         </div>
     );
 }
+
+export default NavTabs;
