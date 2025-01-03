@@ -1,4 +1,5 @@
-
+import React from 'react';
+import backgroundimage from '../public/Menu-background.svg';
 
 function Menu() {
   return (
@@ -75,6 +76,9 @@ function Menu() {
         <li>BOTTLED WATER ...................................................$1</li>
         <br></br>
         </ul>
+
+        <br></br>
+        <p>* CONSUMING RAW OR UNDERCOOKED MEATES, POULTRY, SEAFOOD, SHELLFISH OR EGGS MAY INCREASE YOUR RISK OF FOODBORNE ILLNESS, ESPECIALLY IF YOU HAVE CERTAIN MEDICAL CONDITIONS</p>
       </div>
     </div>
   );
