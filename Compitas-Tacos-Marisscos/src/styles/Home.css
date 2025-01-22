@@ -1,0 +1,37 @@
+.the-truck img {
+    border-radius: 35px;
+    width: 3500px;
+    border-color: orange;
+    border-style: solid;
+}
+
+.the-truck {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.banner {
+    color: white;
+    font-size: 75px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    margin-top: 50px;
+    align-items: center;
+    animation: marquee 1s linear infinite;
+    word-spacing: 15px;
+}
+
+.contact-form {
+    justify-content: center;
+    margin-top: 50px;
+    height: 500px;
+}
+
+.contact-us {
+    justify-content: center;
+    margin-top: 50px;
+    color: orange;
+}

@@ -20,20 +20,25 @@ function Home() {
     return (
         <div>
 
+            <div className='banner'>
+                <marquee><span style={{ wordSpacing: '95px' }}>TACOS CEVICHE AGUACHILES COCTELES DRINKS</span> - CONTACT US FOR LARGE ORDERS OR CATERING</marquee>
+            </div>
+
             <div alt="picture of Compitas's Food Truck" className="the-truck" >
                 <img src={Truck} alt="Truck" />
             </div>
 
-            <div className="Contact-us">
+            <div className="contact-us">
                 <h1>Contact Us</h1>
                 <p>Feel free to contact us with any questions or comments or for a free quote.</p>
             </div>
 
-            <div>
+            <div >
                 <form onSubmit={handleSubmit} className="the-form">
                     <div>
                         <label htmlFor="name">Name:</label>
                         <input
+                            style={{ width: '25%', height: '50px', fontSize: '35px' }}
                             type="text"
                             id="name"
                             value={name}
@@ -43,6 +48,7 @@ function Home() {
                     <div>
                         <label htmlFor="email">Email:</label>
                         <input
+                            style={{ width: '25%', height: '50px', fontSize: '35px' }}
                             type="email"
                             id="email"
                             value={email}
@@ -52,6 +58,7 @@ function Home() {
                     <div>
                         <label htmlFor="comments">Comments:</label>
                         <textarea
+                        style={{ width: '25%', height: '300px', fontSize: '35px' }}
                             id="comments"
                             value={comments}
                             onChange={(e) => setComments(e.target.value)}

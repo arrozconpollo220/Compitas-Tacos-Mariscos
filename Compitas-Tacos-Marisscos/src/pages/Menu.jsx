@@ -4,7 +4,18 @@ import backgroundimage from '../public/Menu-background.svg';
 function Menu() {
   return (
     <div>
-      <div>
+      <div style= {{
+        backgroundImage: `url(${backgroundimage})`,
+        backgroundSize: '100% 100%',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        height: '4500px',
+        width: '100vw',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}>
         <h1>Menu</h1>
         <h2>Check out our amazing menu!</h2>
         <ul style={{ listStyleType: 'none' }} className="mariscos">

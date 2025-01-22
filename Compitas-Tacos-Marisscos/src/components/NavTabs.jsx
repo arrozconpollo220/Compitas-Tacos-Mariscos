@@ -3,6 +3,7 @@ import Logo from '../public/Compaslogo.svg';
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import "../styles/NavTabs.css";
 
 function NavTabs() {
     const currentPage = useLocation().pathname;
