@@ -1,4 +1,7 @@
 body {
     background-color: black;
     color: white;
+    font-family: "Luckiest Guy", serif;
+    font-weight: bolder;
+    text-shadow: 4px 4px 4px orange;
 }

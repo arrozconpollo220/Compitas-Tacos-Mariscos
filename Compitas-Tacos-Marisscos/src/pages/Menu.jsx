@@ -1,9 +1,15 @@
 import React from 'react';
-import backgroundimage from '../public/Menu-background.svg';
+import backgroundimage from '../public/Menu-Backgound3.svg.png';
+import '../styles/Menu.css';
 
 function Menu() {
   return (
     <div>
+
+            <div className='banner'>
+                <marquee><span style={{ wordSpacing: '95px' }}>TACOS CEVICHE AGUACHILES COCTELES CHAROLAS DRINKS</span> - CONTACT US FOR LARGE ORDERS, CHAROLAS OR CATERING</marquee>
+            </div>
+
       <div style= {{
         backgroundImage: `url(${backgroundimage})`,
         backgroundSize: '100% 100%',
@@ -15,6 +21,7 @@ function Menu() {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
+        marginTop: '100px',
       }}>
         <h1>Menu</h1>
         <h2>Check out our amazing menu!</h2>
@@ -89,7 +96,9 @@ function Menu() {
         </ul>
 
         <br></br>
+        <div styleName="disclaimer">
         <p>* CONSUMING RAW OR UNDERCOOKED MEATES, POULTRY, SEAFOOD, SHELLFISH OR EGGS MAY INCREASE YOUR RISK OF FOODBORNE ILLNESS, ESPECIALLY IF YOU HAVE CERTAIN MEDICAL CONDITIONS</p>
+        </div>
       </div>
     </div>
   );

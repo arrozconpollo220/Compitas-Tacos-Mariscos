@@ -21,7 +21,7 @@ function Home() {
         <div>
 
             <div className='banner'>
-                <marquee><span style={{ wordSpacing: '95px' }}>TACOS CEVICHE AGUACHILES COCTELES DRINKS</span> - CONTACT US FOR LARGE ORDERS OR CATERING</marquee>
+                <marquee><span style={{ wordSpacing: '95px' }}>TACOS CEVICHE AGUACHILES COCTELES CHAROLAS DRINKS</span> - CONTACT US FOR LARGE ORDERS, CHAROLAS OR CATERING</marquee>
             </div>
 
             <div alt="picture of Compitas's Food Truck" className="the-truck" >
