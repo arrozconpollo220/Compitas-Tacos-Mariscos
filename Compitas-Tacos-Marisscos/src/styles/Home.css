@@ -34,3 +34,22 @@
     margin-top: 50px;
     color: orange;
 }
+
+.the-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Makes the list inline */
+    gap: 95px; /* Spacing between items */
+  }
+
+  .the-list li {
+    white-space: nowrap; /* Prevents text from wrapping */
+  }
+
+  .the-list li:not(:last-child)::after {
+    content: " • "; /* Bullet character */
+    color: white    ; /* Bullet color */
+    font-weight: bold;
+    margin-left: 10px; /* Space between text and bullet */
+  }

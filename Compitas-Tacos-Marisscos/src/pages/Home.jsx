@@ -16,12 +16,23 @@ function Home() {
         console.log('Email:', email);
         console.log('Comments:', comments);
     };
-
+    
     return (
         <div>
 
             <div className='banner'>
-                <marquee><span style={{ wordSpacing: '95px' }}>TACOS CEVICHE AGUACHILES COCTELES CHAROLAS DRINKS</span> - CONTACT US FOR LARGE ORDERS, CHAROLAS OR CATERING</marquee>
+                <marquee className="the-marquee">   
+                    <span style={{ wordSpacing: '95px', display: 'flex', alignItems: 'center' }}>
+                        <ul className="the-list">
+                            <li>TACOS</li>
+                            <li>CEVICHE</li>
+                            <li>AGUACHILES</li>
+                            <li>COCTELES</li>
+                            <li>CHAROLAS</li>
+                            <li>DRINKS</li>
+                        </ul>
+                    </span>
+                    - CONTACT US FOR LARGE ORDERS, CHAROLAS OR CATERING</marquee>
             </div>
 
             <div alt="picture of Compitas's Food Truck" className="the-truck" >
