@@ -1,8 +1,7 @@
 .the-truck img {
     border-radius: 35px;
-    width: 3500px;
-    border-color: orange;
-    border-style: solid;
+    width: 100%;
+    opacity: 0.4;
 }
 
 .the-truck {

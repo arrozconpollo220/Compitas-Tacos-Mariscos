@@ -23,8 +23,8 @@ function Menu() {
         alignItems: 'center',
         marginTop: '100px',
       }}>
-        <h1>Menu</h1>
-        <h2>Check out our amazing menu!</h2>
+        <h1 className="menu-title">Menu</h1>
+      
         <ul style={{ listStyleType: 'none' }} className="mariscos">
           <h3>MARISCOS</h3>
           <li>CEVICHE * ....................................................$18</li>
