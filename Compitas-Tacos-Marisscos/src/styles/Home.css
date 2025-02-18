@@ -43,10 +43,6 @@
     gap: 95px; /* Spacing between items */
   }
 
-  .the-list li {
-    white-space: nowrap; /* Prevents text from wrapping */
-  }
-
   .the-list li:not(:last-child)::after {
     content: " • "; /* Bullet character */
     color: white    ; /* Bullet color */
