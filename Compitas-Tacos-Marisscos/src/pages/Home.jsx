@@ -16,24 +16,24 @@ function Home() {
         console.log('Email:', email);
         console.log('Comments:', comments);
     };
-    
+
     return (
         <div>
 
-            <div className='banner'>
-                <marquee className="the-marquee">   
-                    <span style={{ wordSpacing: '95px', display: 'flex', alignItems: 'center' }}>
-                        <ul className="the-list">
-                            <li>TACOS</li>
-                            <li>CEVICHE</li>
-                            <li>AGUACHILES</li>
-                            <li>COCTELES</li>
-                            <li>CHAROLAS</li>
-                            <li>DRINKS</li>
-                        </ul>
-                    </span>
-                    - CONTACT US FOR LARGE ORDERS, CHAROLAS OR CATERING</marquee>
-            </div>
+                <div className='banner'>
+                    <marquee className="the-marquee">   
+                        <span style={{ wordSpacing: '95px', display: 'flex', alignItems: 'center' }}>
+                            <ul className="the-list">
+                                <li>TACOS</li>
+                                <li>CEVICHE</li>
+                                <li>AGUACHILES</li>
+                                <li>COCTELES</li>
+                                <li>CHAROLAS</li>
+                                <li>DRINKS</li>
+                            </ul>
+                        </span>
+                        - CONTACT US FOR LARGE ORDERS, CHAROLAS OR CATERING</marquee>
+                </div>
 
             <div alt="picture of Compitas's Food Truck" className="the-truck" >
                 <img src={Truck} alt="Truck" />
@@ -42,6 +42,10 @@ function Home() {
             <div className="contact-us">
                 <h1>Contact Us</h1>
                 <p>Feel free to contact us with any questions or comments or for a free quote.</p>
+            </div>
+
+            <div>
+                
             </div>
 
             <div >
