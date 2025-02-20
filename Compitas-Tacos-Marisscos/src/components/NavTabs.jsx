@@ -23,9 +23,13 @@ function NavTabs() {
             </ul>
             <img src={Logo} alt="Compas Logo" className='nav-logo' />
             <div className='nav-icons'>
+                <a href="https://www.facebook.com/cevichazoelcompa/" target="_blank" rel="noreferrer">
                 <FaFacebookSquare className='nav-icon' />
+                </a>
+                
+                <a href="https://www.instagram.com/compitasut/" target="_blank" rel="noreferrer">
                 <FaInstagram className='nav-icon' />
-                <FaSquareXTwitter className='nav-icon' />
+                </a>
             </div>
         </div>
     );

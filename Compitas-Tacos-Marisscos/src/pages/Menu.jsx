@@ -6,9 +6,21 @@ function Menu() {
   return (
     <div>
 
-            <div className='banner'>
-                <marquee><span style={{ wordSpacing: '95px' }}>TACOS CEVICHE AGUACHILES COCTELES CHAROLAS DRINKS</span> - CONTACT US FOR LARGE ORDERS, CHAROLAS OR CATERING</marquee>
-            </div>
+      <div className='banner'>
+        <marquee className="the-marquee">
+          <span style={{ wordSpacing: '95px', display: 'flex', alignItems: 'center' }}>
+            <ul className="the-list">
+              <li>TACOS</li>
+              <li>CEVICHE</li>
+              <li>AGUACHILES</li>
+              <li>COCTELES</li>
+              <li>CHAROLAS</li>
+              <li>DRINKS</li>
+              <li>CONTACT US FOR LARGE ORDERS, CHAROLAS OR CATERING</li>
+            </ul>
+          </span>
+        </marquee>
+      </div>
 
       <div style= {{
         backgroundImage: `url(${backgroundimage})`,
