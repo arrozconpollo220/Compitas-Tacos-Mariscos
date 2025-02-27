@@ -1,5 +1,6 @@
 import React from 'react';
 import backgroundimage from '../public/Menu-Backgound3.svg.png';
+import backgroundimage2 from '../public/MenuBorder2.png';
 import '../styles/Menu.css';
 
 function Menu() {
@@ -23,7 +24,7 @@ function Menu() {
       </div>
 
       <div style= {{
-        backgroundImage: `url(${backgroundimage})`,
+        backgroundImage: `url(${backgroundimage2})`,
         backgroundSize: '100% 100%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
@@ -107,8 +108,7 @@ function Menu() {
         <br></br>
         </ul>
 
-        <br></br>
-        <div styleName="disclaimer">
+        <div className="disclaimer">
         <p>* CONSUMING RAW OR UNDERCOOKED MEATES, POULTRY, SEAFOOD, SHELLFISH OR EGGS MAY INCREASE YOUR RISK OF FOODBORNE ILLNESS, ESPECIALLY IF YOU HAVE CERTAIN MEDICAL CONDITIONS</p>
         </div>
       </div>

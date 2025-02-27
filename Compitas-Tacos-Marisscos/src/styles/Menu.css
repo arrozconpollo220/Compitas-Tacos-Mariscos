@@ -1,35 +1,26 @@
 .mariscos {
-    font-size: 45px;
+    font-size: 55px;
     padding: 10px;
     margin: 10px;
-    color: red;
+    color: orange;
     text-shadow: 2px 2px 2px white;
     text-align: center;
 }
 
 .tacos {
-    font-size: 45px;
+    font-size: 55px;
     padding: 10px;
     margin: 10px;
-    color: white;
-    text-shadow: 2px 2px 2px red;
-    text-align: center;
-}
-
-.drinks {
-    font-size: 45px;
-    padding: 10px;
-    margin: 10px;
-    color: red;
+    color: orange;
     text-shadow: 2px 2px 2px white;
     text-align: center;
 }
 
-.disclaimer {
-    font-size: 20px;
+.drinks {
+    font-size: 55px;
     padding: 10px;
     margin: 10px;
-    color: red;
+    color: orange;
     text-shadow: 2px 2px 2px white;
     text-align: center;
 }
@@ -38,8 +29,16 @@
     font-size: 85px;
     padding: 10px;
     margin: 10px;
-    color: red;
+    color: orange;
     text-shadow: 2px 2px 2px white;
     text-align: center;
 }
+
+.disclaimer {
+    color: orange;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 2px white;
+  }
 

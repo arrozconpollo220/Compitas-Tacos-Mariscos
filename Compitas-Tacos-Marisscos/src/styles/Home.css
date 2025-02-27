@@ -11,8 +11,9 @@
 }
 
 .banner {
-    color: white;
+    color: orange;
     font-size: 75px;
+    text-shadow: 2px 2px 2px white;
     font-weight: bolder;
     display: flex;
     justify-content: space-between;
@@ -40,7 +41,68 @@
 
   .the-list li:not(:last-child)::after {
     content: " • "; /* Bullet character */
-    color: white    ; /* Bullet color */
+    color: orange    ; /* Bullet color */
     font-weight: bold;
     margin-left: 10px; /* Space between text and bullet */
   }
+
+  .the-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Even spacing between fields */
+    max-width: 1000px; /* Limits form width */
+    margin: auto; /* Centers the form */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    height: 400px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 50px;
+    color: orange;
+    text-shadow: white 2px 2px 2px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.success {
+    color: green;
+    font-size: 14px;
+}
+
+
+
+
